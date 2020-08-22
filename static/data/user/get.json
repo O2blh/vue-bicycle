@@ -1,0 +1,31 @@
+{
+    "users": [{
+        "userid": 1,
+        "username": "鲍隆辉",
+        "sex": "男",
+        "address": "杭州",
+        "phone": "15215949559",
+        "mail": "547525253@qq.com",
+        "age": 25,
+        "password": "123456"
+    }, {
+        "userid": 1,
+        "username": "胡聪",
+        "sex": "女",
+        "address": "杭州",
+        "phone": "15215949559",
+        "mail": "547525253@qq.com",
+        "age": 27,
+        "password": "123456"
+    }, {
+        "userid": 1,
+        "username": "项雅婷",
+        "sex": "女",
+        "address": "宁波",
+        "phone": "15215949559",
+        "mail": "547525253@qq.com",
+        "age": 25,
+        "password": "123456"
+    }],
+    "PageCount": 1
+}

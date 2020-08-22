@@ -1,0 +1,19 @@
+{
+    "bikes": [{
+        "Id": 1,
+        "Lng": 121,
+        "Lat": 30,
+        "QRCode": "./static/img/timg.jpg"
+    }, {
+        "Id": 2,
+        "Lng": 121.45245,
+        "Lat": 30.77527,
+        "QRCode": "./static/img/timg.jpg"
+    }, {
+        "Id": 3,
+        "Lng": 121.151,
+        "Lat": 30.78,
+        "QRCode": "./static/img/timg.jpg"
+    }],
+    "PageCount": 1
+}
