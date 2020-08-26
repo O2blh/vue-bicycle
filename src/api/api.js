@@ -1,7 +1,7 @@
 import axios from "axios"
 import { Notification } from "element-ui"
 import router from "../router"
-const baseUrl = "http://localhost:8080/static/data";
+const baseUrl = "/static/data";
 
 axios.interceptors.response.use(function(response) {
     return response;
