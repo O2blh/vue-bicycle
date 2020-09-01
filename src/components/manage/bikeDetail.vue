@@ -1,5 +1,5 @@
 <template>
-  <baidu-map class="map" :center="{lng: item.Lng, lat: item.Lat}" :zoom="15" style="height:500px;width:800px;">
+  <baidu-map class="map" :center="{lng: item.Lng, lat: item.Lat}" :zoom="15" style="height:700px;width:100%;">
     <bm-marker
       :position="{lng: item.Lng, lat:  item.Lat}"
       :dragging="true"
@@ -26,8 +26,9 @@ export default {
     };
   },
   mounted() {
+    console.log('detail'+this.$route.params);
     let bike = {
-      id: this.$route.parms.Id,
+      id: this.$route.params.Id,
     };
     getBikeDetailUrl(bike).then((res) => {
       console.log(res.data);

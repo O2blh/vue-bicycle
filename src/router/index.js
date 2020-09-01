@@ -69,7 +69,7 @@ export default new Router({
                         },
                         {
                             path: "bikeDetail/:Id",
-                            name: "bicycle",
+                            name: "bikeDetail",
                             meta: { parentName: 'manage' },
                             component: bikeDetail
                         }

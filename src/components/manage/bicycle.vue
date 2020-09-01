@@ -42,7 +42,6 @@ export default {
   },
   methods: {
     handleClick(row) {
-        console.log(row.Id);
         this.$router.push({path:`/home/manage/bikeDetail/${row.Id}`});
     },
     getitems() {

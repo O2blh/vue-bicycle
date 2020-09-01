@@ -34,7 +34,8 @@ export const getBikesUrl = parms => {
     return axios.get(url);
 }
 export const getBikeDetailUrl = parms => {
-    var url = baseUrl + "/bike/getDetail.json";
+    console.log(parms.id);
+    var url = `${baseUrl}/bike/getDetail${parms.id}.json`;
     return axios.get(url);
 }
 export const getUserDataUrl = parms => {
